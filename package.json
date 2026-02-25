@@ -1,0 +1,17 @@
+{
+  "name": "primer_nodejs",
+  "version": "0.0.1",
+  "description": "Este es mi primer proyecto en nodejs",
+  "license": "ISC",
+  "author": "Jhonathan Giraldo",
+  "type": "commonjs",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
