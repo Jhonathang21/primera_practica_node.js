@@ -11,7 +11,9 @@
 // console.log(obtenerMentor(mentor));
 // console.log(obtenerMonitor(monitor));
 
-const {suma, resta, division} = require('./operaciones_basicas')
+// const {suma, resta, division} = require('./operaciones_basicas')
+
+import {suma, resta, division} from './operaciones_basicas.js'
 
 console.log(suma(5,3))
 console.log(resta(5,3))
